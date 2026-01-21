@@ -1,0 +1,48 @@
+Variables: What Are Variables?
+        Ways to create variables?
+        i)  dataType variableName = value;
+
+        ii) dataType variableName;
+            variableName = value;
+
+        a) 10
+        dataType x = 10;
+
+        Data Types:
+        Primitive Data Types
+         [We know in advance how much memory it will consume]
+         [We don't need any object in order to use them]
+            byte
+            short
+            int
+            long
+            float
+            double
+            char
+            boolean
+
+        Non-Primitive Data Types
+         [We don't know in advance how much memory it will consume]
+         [We need any object in order to use them]
+            String
+            Class
+            Objects...
+
+            ==============================================================
+            Data Types:
+             number (int[byte, short, int, long], decimal[float, double], single Character[char])
+             boolean(true, false
+
+             How much memory this will consume
+             Whats the range of this data type
+
+             byte - {1 Byte} or 8 bits: Range {-128 to 127}
+             short- {2 Byte} or 16 bits
+             int  - {4 byte} or 32 bits
+             long - {8 byte} or 64 bits
+
+
+             Note: How choose data type:
+             i)	See the range in which the value fit
+             a)	Only in the range of one data type  Use that data type
+             b)	If it fits in range of multiple data types  Select the one which consumes the least memory
