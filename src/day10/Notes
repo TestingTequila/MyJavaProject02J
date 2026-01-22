@@ -43,6 +43,14 @@ Variables: What Are Variables?
 
 
              Note: How choose data type:
-             i)	See the range in which the value fit
+             i)	See the range in which the value fits
              a)	Only in the range of one data type  Use that data type
              b)	If it fits in range of multiple data types  Select the one which consumes the least memory
+
+
+             byte b=10;
+             b= b*20;
+             system.out.println(b);
+
+             https://tutorials.freshersnow.com/wp-content/uploads/2023/05/Data-types-in-Java-2048x1299.jpg
+
