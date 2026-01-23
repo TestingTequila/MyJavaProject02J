@@ -1,8 +1,8 @@
 Variables: What Are Variables?
         Ways to create variables?
-        i)  dataType variableName = value;
+        i)  dataType variableName = value; // When you know the exact  value you want to store
 
-        ii) dataType variableName;
+        ii) dataType variableName;   //When you don't know the exact value to store at that point
             variableName = value;
 
         a) 10
@@ -53,4 +53,6 @@ Variables: What Are Variables?
              system.out.println(b);
 
              https://tutorials.freshersnow.com/wp-content/uploads/2023/05/Data-types-in-Java-2048x1299.jpg
+
+             Strings: Ashish, We are Learning Java
 
