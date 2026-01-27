@@ -21,7 +21,7 @@ public class MathOperations {
         System.out.println(d); //3.0
         float s = 3;
 
-        //Modulo Operator % (Remainder)
+        //3. Modulo Operator % (Remainder)
 
         System.out.println(10/2); //5
         System.out.println(10%2); //0
