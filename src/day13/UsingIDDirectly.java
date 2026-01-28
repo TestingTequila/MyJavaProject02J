@@ -26,5 +26,16 @@ public class UsingIDDirectly {
         int f = 100;
         System.out.println(--f);//99
         System.out.println(f);//99
+
+        int m = 200;
+        int n = m++;
+        System.out.println(--m);//200
+        System.out.println(m);//200
+        System.out.println(m++);//200
+        System.out.println(m--);//201
+        System.out.println(--m);//199
+        System.out.println(m);//199
+        System.out.println(n++);//200
+        System.out.println(n);//201
     }
 }

@@ -56,3 +56,58 @@ Variables: What Are Variables?
 
              Strings: Ashish, We are Learning Java
 
+Day 14: Statements
+         if statement
+         if-else statement
+         multiple if else if statement
+         switch statement
+
+
+==========================Syntax===========================
+
+if(conditionToValidate)
+{
+   This code will execute only if condition is true
+}
+
+-----------------------------------------------------
+if(conditionToValidate)
+{
+   This code will execute only if condition is true
+}
+else
+{
+   This code will execute only if condition is false
+}
+
+---------------------------------------------------
+if(condition1)
+{
+   this code will execute
+}
+else if (condition 2)
+{
+   this code will execute
+}
+else if (condition 3)
+{
+   this code will execute
+}
+else if (condition 4)
+{
+   this code will execute
+}
+else if (condition N)
+{
+   this code will execute
+}
+else
+{
+   this code will execute if the condition fails
+}
+
+====> If a problem can be solved using both ifElseIf statement & switch Statement--> Give preference to
+       switch statement
+
+       in switch we cannot use >, < >=, <=
+       switch cannot be used with long/float/double/boolean
