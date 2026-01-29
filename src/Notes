@@ -111,3 +111,26 @@ else
 
        in switch we cannot use >, < >=, <=
        switch cannot be used with long/float/double/boolean
+
+       ----------------------------------------------
+       Loops: We use loops to perform repetitive tasks
+       Whenever we have group of something and we wish to perform some operation on that group
+
+       while loop
+       for loop
+       advanced for loop
+
+       Syntax of while loop
+       use a variable;
+       while(define the condition over variable)
+       {
+          this code will execute till the time condition holds to be true
+          I/D operator
+       }
+
+       syntax of for loop
+
+       for(use a variable; define the condition over variable; I/D operator)
+       {
+          this code will execute till the time condition holds to be true
+       }
