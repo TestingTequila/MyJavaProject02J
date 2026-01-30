@@ -119,6 +119,10 @@ else
        while loop
        for loop
        advanced for loop
+       for(dataTypeOfGroup aliasName:nameOfGroup)
+       {
+          action;
+       }
 
        Syntax of while loop
        use a variable;
@@ -134,3 +138,16 @@ else
        {
           this code will execute till the time condition holds to be true
        }
+
+       -------------------------------------------------------------------------
+       Arrays: whenever we have to store group of values of similar data type
+       Types of Arrays:
+       static array
+         1. dataType[] arrayName ={value1, value2, value3, value4.....valueN};
+         2. dataType[] variableName = new dataType[countOfValuesYouWantToStore];
+
+       dynamic array
+
+         int x= {1,2,3,4,5,6,7}
+         the lowest index in an array will always be zero
+         Highest index of an array is => size-1

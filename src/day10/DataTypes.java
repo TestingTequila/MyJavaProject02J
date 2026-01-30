@@ -7,6 +7,7 @@ public class DataTypes {
          //dataType variableName = value;
          //10
         int x = 10;  //byte, short, int, long
+        System.out.println(x);
 
         //100
 
