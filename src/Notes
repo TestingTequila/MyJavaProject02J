@@ -151,3 +151,39 @@ else
          int x= {1,2,3,4,5,6,7}
          the lowest index in an array will always be zero
          Highest index of an array is => size-1
+
+         --------------------------------------------------------------------
+         Define class: A class is a template or blue print of something
+         Define Object: every copy of that class is called its object
+         How to create object of class {how to create copy of a template programmatically}
+         ==> NameOfTheClassWhoseCopyWeWantToCreate nameOfCopy = new NameOfTheClassWhoseCopyWeWantToCreate();
+         Explain the relationship b/w class & Object: Class is a template and object is copy of that template
+         Object w.r.t main(): We use main within our class whenever we wish to create
+                              an object or a copy of an existing class
+
+         Class & Object w.r.t heap & stack
+         Null reference Object
+         No Reference Object
+         Garbage Collector
+         Object Assignment to each Other
+
+
+         int x=10;
+         char y='c'
+         boolean b=true;
+         double f=12.34;
+
+
+         Employee
+
+         Employee emp1= new Employee();
+         Employee emp2=new Employee();
+
+         Abacus
+
+         Abacus ab1= new Abacus();
+
+         Car
+
+         Car audi= new Car();
+
