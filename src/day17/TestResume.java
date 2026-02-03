@@ -1,6 +1,6 @@
 package day17;
 
-public class ResumeObjects {
+public class TestResume {
     public static void main(String[] args) {
 
         System.out.println("=======Ahmad's Resume==================");
@@ -44,15 +44,13 @@ public class ResumeObjects {
         System.out.println("Gender: " + kerrieResume.gender);
         System.out.println("Salary: " + kerrieResume.salary);
 
-        //1. Null Pointer Exception
-        kerrieResume = null;
+        //2. No Reference Object
 
-        System.out.println("First Name: " + kerrieResume.firstName);
-        System.out.println("Last Name: " + kerrieResume.lastName);
-        System.out.println("Age: " + kerrieResume.age);
-        System.out.println("Gender: " + kerrieResume.gender);
-        System.out.println("Salary: " + kerrieResume.salary);
-
+        new Resume().firstName = "Ben";
+        new Resume().lastName = "Fletcher";
+        new Resume().age = 32;
+        new Resume().gender = 'M';
+        new Resume().salary = 4567.89;
 
     }
 }
