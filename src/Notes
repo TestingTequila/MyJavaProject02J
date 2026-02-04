@@ -187,3 +187,27 @@ else
 
          Car audi= new Car();
 
+
+       Methods:
+       The purpose why we are creating variables is called method
+       A class consists of variables and methods
+       Methods: Actions performed over class variables
+
+       Syntax:
+
+       accessModifier[public/private/protected] returnType[void/dataTypes] methodName(can/t parameters)
+       {
+           action over class variables
+       }
+
+       Global Variables or Class Level Variable or instance Variables=>variables within the class and outside the method
+       Note: If you want your variable value to be shared by multiple methods of the same class, make it global/class level/instance variable
+
+
+        Parameters:
+        If you don't want your variable value to be shared by other methods of the class, pass it as parameter within the curved bracket of method
+
+
+        Local Variables:
+        If you always want your method should produce the same result for every object created, make it local variable, within the curved brackets of the method
+        Whenever we create local variable its mandatory to assign value to it, as they can't be accessed anymore by object reference variables
