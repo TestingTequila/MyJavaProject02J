@@ -1,0 +1,6 @@
+What action we want to perform
+what we need to perform that action
+Store those things [Variables[global Variable, parameter, local], Arrays]
+Am i going to use the output of this method into some further calculation or manipulations
+if Yes --> use a return type
+if no  --> use void
