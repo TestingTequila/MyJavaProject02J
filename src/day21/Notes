@@ -1,0 +1,43 @@
+1. How to call global variables inside a method
+2. How to assign the parameters value to the global variables.
+
+OOPs Concept:
+
+1. Encapsulation
+     Data Hiding
+2. Polymorphism
+     method overloading
+     method overriding
+3. Inheritance
+     Abstraction
+     Interface
+
+A ---------------------------------------------------------> B
+
+1. I won't follow any traffic rules
+    --> He might get into some accident
+    --> He might be caught by the traffic cop
+    --> He might be caught & fined
+    --> He might be caught, fined & jailed
+    --> He might be delayed
+    --> He might reach the destination without any of the above things happening
+
+2. I will follow the traffic rules
+    --> He will not get into some accident
+    --> He will not be caught by the traffic cop
+    --> He will not be caught & fined
+    --> He will not be caught, fined & jailed
+    --> He will not be delayed
+    --> He will definitely reach the destination
+
+What is polymorphism: Multiple + states [H20]
+
+Polymorphism says, in the same class or different class we can have methods with same name
+Overloading: In a class we can have two or more methods with the same name, provided their signature differs
+ways to change the signature
+ 1. by changing the datatype of parameters
+ 2. by changing the order of parameters
+ 3. by changing the count of parameters
+
+ Method Overloading: Compile Time Polymorphism/Static Polymorphism
+                     Method overloading happens within the same class
