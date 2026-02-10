@@ -1,4 +1,4 @@
-package day20.TypesOfMethods;
+package day20;
 
 public class EmployeeIDCard {
     public String printEmployeeIdCard(String firstName, String lastName) {

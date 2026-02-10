@@ -1,4 +1,4 @@
-package day20.TypesOfMethods;
+package day20;
 
 public class TestEmployeeIDCard {
     public static void main(String[] args) {

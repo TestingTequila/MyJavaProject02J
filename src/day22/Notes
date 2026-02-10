@@ -1,0 +1,14 @@
+Any such property of a class whose 'VALUE' remains same across the objects of the class
+we make such properties as static
+Anything which is static, is not part of object, and since object is always stored in heap memory and
+static is no longer part of Object, so this is stored in a separate memory called CMA/permanent generation/metaspace
+We call static variables/methods using class name
+
+Use Cases:
+Calling non-static method within other non-static method
+Calling static method within other static method
+Calling non-static method within static method
+Calling static method within non-static method
+
+//Whenever we have to call a non-Static method, we can call only and only through object reference
+//Whenever we have to call a static method, we can call only and only through Class Name;
