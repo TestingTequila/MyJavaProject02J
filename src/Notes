@@ -212,3 +212,8 @@ else
         If you always want your method should produce the same result for every object created, make it local variable, within the curved brackets of the method
         Whenever we create local variable its mandatory to assign value to it, as they can't be accessed anymore by object reference variables
 
+        If we don't want to create object of a class, make the constructor private and class with
+        private constructor will have only static variables and methods.
+
+        We cannot make a constructor static, object calls Constructor and whatever is static is not part of Object
+        So, they contradict.

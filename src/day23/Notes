@@ -1,0 +1,23 @@
+JVM is responsible for assigning default value to global/instance/class variables
+
+Constructor in Java is a special type of method that is used to initialize the Object
+
+Rules for creating a Java Constructor
+
+   accessModifier nameOfTheClass(can/t parameters)
+   {
+      initialize the object only
+   }
+   Types of Constructors
+
+   accessModifier  nameOfTheClass()
+   {
+
+   }
+
+   accessModifier  nameOfTheClass(with parameters)
+   {
+
+   }
+
+   We cannot call a constructor explicitly[on your own]
