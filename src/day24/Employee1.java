@@ -24,13 +24,15 @@ public class Employee1 {
     }
 
     public int getEmpSalary() {
-        int salary;
+        //int salary;
         if (empSalary > 2000 && empSalary <= 15000) {
-            salary = empSalary;
+           // salary = empSalary;
+            return empSalary;
         } else {
-            salary = 0;
+            //salary = 0;
+            return 0;
         }
-        return salary;
+        //return salary;
     }
 
 }
