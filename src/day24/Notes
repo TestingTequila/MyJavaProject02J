@@ -1,0 +1,19 @@
+Encapsulation:
+==> private variable + setter&getter methods
+1. We made the variable private
+2. set their values using setter method
+3. get their values using getter method
+
+==> private variable + constructors&getter methods
+1. We made the variable private
+2. set their values using constructors
+3. get their values using getter method
+
+==> private variable + constructors(setting)& getter methods + setter methods(to update the value set by Constructor)
+   1. We made the variable private
+   2. set their values using constructors
+   3. get their values using getter method
+   4. update the value of global variable using setter method
+   5. again get the updated values
+
+==> private methods encapsulated within public methods
