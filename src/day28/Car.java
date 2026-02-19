@@ -1,8 +1,9 @@
 package day28;
 
-public class Car extends  Vehicle {
+public class Car extends Vehicle {
 
-     int carModelYear = 2016;
+    int carModelYear = 2016;
+    final int AGE = 45;
 
     public void start() {
         System.out.println("Car Start...");

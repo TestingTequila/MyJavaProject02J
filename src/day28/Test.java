@@ -17,6 +17,7 @@ public class Test {
         b1.stop();//Inherited
         System.out.println(b1.carModelYear);//2018
         b1.cruiseControl();
+        System.out.println(b1.AGE);
 
         System.out.println("============Top Casting============");
         Car c2 = new BMW();
