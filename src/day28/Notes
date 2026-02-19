@@ -1,0 +1,14 @@
+For override to happen
+1. P-C relation should exist among classes[Through Inheritance]
+2. Method to be overridden should exist in both P-C class
+
+Method overloading happens within the same class BUT method overriding happens in different classes
+that share P-C relationship(where inheritance exists)
+
+A child can inherit parents property BUT a Parent cannot inherit a child Property
+
+if a method is made final --> this cannot be overridden
+if a class is made final  --> this cannot be inherited {This final class can never be Parent of any other class}
+Variables cannot be overridden
+
+Static method cannot be overridden--> because only what belongs to Object can be overridden and static is not part of object
