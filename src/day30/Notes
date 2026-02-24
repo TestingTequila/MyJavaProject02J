@@ -1,0 +1,15 @@
+1. Can we create object of an interface - No
+2. Can we have constructors inside an interface - No
+3. Can we have constructors inside an Abstract class - Yes
+4. Can Abstract method of abstract class be final - No
+5. Can abstract method be static - No
+6. Can abstract methods be private - No
+7. Can we create object of an Abstract class - No
+8. Variables cannot be overridden
+9. Can the abstract method of an interface be final, static or private - No
+10.Interface can have concrete methods, provided that they are either static or have
+   access modifier as default, so static abstract method is not allowed in an interface but static concrete method is allowed
+11. static method of a class can be inherited and cannot be overridden BUT static method of an interface cannot be inherited and therefore obviously
+    cannot be overridden
+12. Default method on an interface can be both inherited and overridden and while doing overriding we need to
+    replace default access modifier with any other access modifier

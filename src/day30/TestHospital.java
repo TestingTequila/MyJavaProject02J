@@ -19,6 +19,9 @@ public class TestHospital {
         fh.orthoServices();//India
         fh.emergencyServices();//Common Service
 
+        fh.medicalRnD();
+        fh.medicalNews();
+
         System.out.println("====Object of Interfaces(cannot be created)======");
         //USMedicalAssociation us= new USMedicalAssociation();
         //UKMedicalAssociation uk= new UKMedicalAssociation();
@@ -31,11 +34,13 @@ public class TestHospital {
         usma.physioServices();
         usma.emergencyServices();
 
+
         System.out.println("====Top casting with UKMedicalAssociation======");
         UKMedicalAssociation ukma = new FortisHospital();
         ukma.entServices();
         ukma.dentalServices();
         ukma.emergencyServices();
+
 
         System.out.println("====Top casting with IndianMedicalAssociation======");
         IndianMedicalAssociation ima = new FortisHospital();
@@ -44,6 +49,18 @@ public class TestHospital {
         ima.orthoServices();
         ima.emergencyServices();
 
+
+        System.out.println("====Top casting with WHO======");
+        WHO who = new FortisHospital();
+        who.pandemicServices();
+
+        System.out.println("====Trying to create object of Interface - Not Passible");
+
+        //new USMedicalAssociation();
+        //new UKMedicalAssociation();
+        //new IndianMedicalAssociation();
+        //new WHO();
+        //new UHO();
 
     }
 }

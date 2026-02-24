@@ -19,7 +19,7 @@ public class BMW extends Car
         System.out.println("BMW Refuel...");
     }
 
-    // This cannot be overridden as this method is final in PArent class
+    // This cannot be overridden as this method is final in Parent class
 //    public  void stop() {
 //        System.out.println("BMW Stop...");
 //    }
